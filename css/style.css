@@ -1,0 +1,465 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* Golden Logo */
+.logo-ctn {
+  width: 100%;
+  height: 68%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 161px;
+  margin-left: 163px;
+  margin-right: 163px;
+  padding-right: 165px;
+}
+
+/* Fix Main Nav */
+.main-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Container Main Nav */
+.main-nav .container {
+  width: 100%;
+}
+
+/* Container size */
+.container {
+  width: 100rem;
+  display: block;
+}
+
+/* Logo size */
+img.logo {
+  height: 67px;
+}
+
+/* size topNav */
+.topNav {
+  height: 64px;
+  background-color: white;
+  margin-top: 0;
+}
+
+/* align vertically nav items */
+.main-nav nav, .main-nav .nav-links ul {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav nav {
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* bottomNav BG Color*/
+.bottomNav {
+  background-color: #284D39;
+}
+
+/* Remove list points */
+.main-nav .nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav links padding */
+.main-nav .nav-links li {
+  padding: 20px 40px;
+}
+
+/* Top nav links colors */
+.topNav .nav-links a {
+  color: #284D39;
+  text-decoration: none;
+  padding-left: 14px;
+}
+
+/* bottomNav links colors */
+.bottomNav .nav-links a {
+  color: #B69625;
+  text-decoration: none;
+}
+
+/* BOTTOMNAV center */
+.bottomNav .nav-links {}
+
+/* banner */
+.banner-container {
+  width: 100%;
+  background-image: url(../image/img-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 66.4375rem;
+  margin-right: 0;
+  position: relative;
+  padding-top: 207px;
+}
+
+.inner-container {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 204px;
+  margin-left: 90px;
+}
+
+img.logo_hero {
+  height: 179px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #B69625;
+  margin: 0;
+}
+
+a.btn {
+  margin-top: 87px;
+  font-size: 2.3rem;
+  box-shadow: 21px 22px 14px 5px rgba(219, 218, 216, 0.54);
+}
+
+.btn {
+  display: inline-block;
+  width: 537px;
+  font-weight: bolder;
+  padding: 36px;
+  color: #fff;
+  background-color: #284D39;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  margin-left: 230px;
+}
+
+.btn:hover, .btn:active {
+  background-color: #B69625;
+  color: #fff;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+/* Promos */
+.bandroll {
+  background-color: #B69625;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* H3 style */
+h3 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* account p position*/
+.account p {
+  padding: 0;
+  margin: 0;
+}
+
+/* BOTTOMNAV Change the color of links on hover */
+.bottomNav a:hover {
+  color: #fff;
+}
+
+/* Style the search box inside the navigation bar */
+.bottomNav input[type=text] {
+  float: right;
+  font-size: 17px;
+  background-color: #284D39;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #B69625;
+  color: #fff;
+}
+
+/* loop */
+.search img {
+  float: right;
+  padding-left: 10px;
+}
+
+/* description */
+.quote {
+  font-size: 30px;
+  color: #284D39;
+  font-style: italic;
+  font-weight: normal;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 310px;
+  margin-bottom: 0;
+}
+
+.description p {
+  font-size: 30px;
+  font-weight: normal;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  margin: 0;
+}
+p.author {
+  color: #284D39;
+  margin-left: 400px;
+  padding-left: 902px;
+}
+
+.description span{
+
+  color: #B69625;
+}
+
+.description{
+  margin-bottom: 150px;
+}
+
+/* Products section */
+.shop {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+/* product images */
+.Product_img img {
+  height: 15rem;
+}
+
+.titre-selection{
+  margin-top: 100px;
+}
+h4 {
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 300px;
+  color:  #284D39;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Promos */
+.bandroll {
+  background-color: #B69625;
+  font-size: 20px;
+}
+
+p, strong {
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.account p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Change the color of links on hover */
+.bottomNav a:hover {
+  color: #fff;
+}
+
+/* Style the search box inside the navigation bar */
+.bottomNav input[type=text] {
+  float: right;
+  font-size: 17px;
+  background-color: #284D39;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #B69625;
+}
+
+/* loop */
+.search img {
+  float: right;
+  padding-left: 10px;
+}
+
+/* Products sections */
+a:hover {
+  transition: ease .7s;
+}
+
+.product-actions p {
+  justify-content: center;
+  align-items: center;
+}
+
+.product-cta {
+  background-color: #284D39;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.product-actions strong {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.product-cta:hover {
+  background-color: rgba(40, 77, 57, 0.5); //le 0.7 c'est pour l'opacité
+}
+
+.single-product {
+  margin-right: 30px;
+  position: relative;
+}
+
+.single-product:last-of-type {
+  margin-right: :0px;
+}
+
+.discount-macaron {
+  background-color: #B69625;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: 1;
+}
+
+.product-img .overlay {
+  background-color: rgba(148, 28, 47, 0.4);
+}
+
+.Product-img {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: none;
+}
+
+.product-img:hover .overlay {
+  display: flex;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Container {
+    margin-top: 5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 1;
+    background-color: #EAE8E7;
+}
+.delivery{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  margin-bottom: 15px;
+}
+.payment{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  margin-bottom: 15px;
+}
+.certified{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #B69625;*
+}
+
+
+/* pour fixer les dimention des champs */
+textarea{
+  resize: none;
+  width: 300px;
+}
+/* largeur des input et champs descripton */
+
+input[type=checkbox]{
+  width: auto;
+}
+input[type=text]{
+  width: 300px;
+}
+input[type=email]{
+  width: 300px;
+}
+input[type=password]{
+  width: 300px;
+}
+input[type=tel]{
+  width: 300px;
+}
+
+.list-footer  {
+  float: right;
+  text-decoration: none;
+}
